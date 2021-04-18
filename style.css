@@ -157,29 +157,7 @@ nav a{
     font-size: 20px;
     padding: 10px 30px;
 }
-@media (max-width:700px){
-    header h1{
-        font-size: 1.3em;
-    }
-    nav a{
-        font-size: .7em;
-        padding: 5px;
-    }
-    #card-section .card{
-        margin: 20px auto;
-    }
-    .News-card
-    {
-        margin: 50px 10px;
-    }
-    .News-card .img-section{
-        height: 200px;  
-    }
-    .News-card .content p{
-        font-size: 15px;
-        padding-top: 5px;
-    }
-}
+
 
 
 footer{
@@ -240,7 +218,7 @@ footer{
  .content h1{
     text-align: center;
     margin-top: 20px;
-    font-size:40px ;
+    font-size: 4em;
 } 
  .content p{
     text-align: justify;
@@ -309,6 +287,28 @@ footer{
     margin-bottom: 20px;
 }
 @media (max-width:700px){
+    header h1{
+        font-size: 1.3em;
+    }
+    nav a{
+        font-size: .7em;
+        padding: 5px;
+    }
+    #card-section .card{
+        margin: 20px auto;
+    }
+    .News-card
+    {
+        margin: 50px 10px;
+    }
+    .News-card .img-section{
+        height: 200px;  
+    }
+    .News-card .content p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
     .Aboutus .img-section{
         width: 40%;
     }
@@ -319,6 +319,9 @@ footer{
         width: 60%;
         left: 40%;
     }
+    .content h1{
+        font-size: 1.3em;
+    } 
     .Aboutus .left{
         left: 0%;}
     nav a{
