@@ -35,13 +35,16 @@ nav{
 }
 nav a{
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.5em;
     margin: 0px auto; 
     color: white;
 }
 @media (max-width:700px){
     header h1{
         font-size: 1.3em;
+    }
+    nav a{
+        font-size: 1px;
     }
 }
 /* courses section */
