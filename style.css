@@ -43,6 +43,9 @@ nav a{
     nav{
         top: 10px;
     }
+    header{
+        height: 120px;
+    }
 }
 /* courses section */
 #card-section{
