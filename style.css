@@ -335,20 +335,25 @@ footer{
     
     #gallery-Section figcaption{
         font-size: 1.5em;
-        margin: 23px 90px;
+        margin: 23px 108px;
     }
     #contact{   
-        width: 400px;
+        width:90%;
+        margin: 30px auto;
+    }
+    #contact h1{
+        font-size: 1.5em;
     }
     #contact label{
-        margin: 0px 10px;
+        margin: 0px 8px;
+        font-size: 15px;
     }
     #contact input, textarea{  
-        width: 200px;
+        width: 170px;
     }
     #contact .btn{
         width: 200px;
-        margin-left: 100px;
+        margin-left: 50px;
         
     }
 }
