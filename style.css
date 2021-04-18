@@ -83,7 +83,7 @@ nav a{
     border-radius: 0px 0px 10px 10px;
 }
 .card:hover .card-content{
-    transform: translateY(-10px); 
+    transform: translateY(-20px); 
 }
 .card-content p{
     margin-bottom: 15px;
