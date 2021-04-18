@@ -44,7 +44,8 @@ nav a{
         font-size: 1.3em;
     }
     nav a{
-        font-size: .8em;
+        font-size: .7em;
+        padding: 5px;
     }
 }
 /* courses section */
