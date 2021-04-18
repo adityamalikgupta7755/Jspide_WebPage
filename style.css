@@ -223,7 +223,7 @@ footer{
  .content p{
     text-align: justify;
     margin-top: 20px;
-    font-size:20px ;
+    font-size: 1.5em;
     padding: 0px 20px;
 } 
 /* gallery section */
@@ -321,6 +321,9 @@ footer{
     }
     .content h1{
         font-size: 1.3em;
+    } 
+    .content p{
+        font-size: .8em;
     } 
     .Aboutus .left{
         left: 0%;}
