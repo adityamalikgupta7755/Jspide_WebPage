@@ -101,18 +101,7 @@ nav a{
     border-radius: 20px;
     text-decoration: none;
 }
-@media (max-width:700px){
-    header h1{
-        font-size: 1.3em;
-    }
-    nav a{
-        font-size: .7em;
-        padding: 5px;
-    }
-    #card-section .card{
-        margin: 20px auto;
-    }
-}
+
 /* news section */
 #News-section{
     display: flex;
@@ -168,6 +157,24 @@ nav a{
     font-size: 20px;
     padding: 10px 30px;
 }
+@media (max-width:700px){
+    header h1{
+        font-size: 1.3em;
+    }
+    nav a{
+        font-size: .7em;
+        padding: 5px;
+    }
+    #card-section .card{
+        margin: 20px auto;
+    }
+    .News-card
+    {
+    margin: 50px auto;
+    }
+}
+
+
 footer{
     border-radius:  0px 0px 45px 45px;
     background-image: radial-gradient(circle, #4827a6, #4736b6, #4444c6, #3f52d6, #3860e6, #365de0, #355ada, #3357d4, #3443b7, #31309b, #2c1c80, #240766);
