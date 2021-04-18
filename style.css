@@ -250,8 +250,8 @@ footer{
     border-radius: 30px 30px 10px 10px;
 }
 #gallery-Section figcaption{
-    font-size: 1em;
-    margin: 23px 124px;
+    font-size: 1.5em;
+    margin: 23px 111px;
 }
 /* contact us */
 #contact{
@@ -294,6 +294,9 @@ footer{
         font-size: .7em;
         padding: 5px;
     }
+    nav a{
+        /* margin: 0px 25px; */
+    }
     #card-section .card{
         margin: 20px auto;
     }
@@ -329,8 +332,10 @@ footer{
     } 
     .Aboutus .left{
         left: 0%;}
-    nav a{
-        margin: 0px 25px;
+    
+    #gallery-Section figcaption{
+        font-size: 1.5em;
+        margin: 23px 111px;
     }
     #contact{   
         width: 400px;
