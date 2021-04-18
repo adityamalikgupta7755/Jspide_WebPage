@@ -147,9 +147,9 @@ nav a{
     transform: perspective(400px) scale(1.2, 1.2);
 }
 .News-card .content{
-    border: 1px solid blue;
+    border-top: 1px solid blue;
     height: 150px;
-    border-radius: 0px 0px 38px 5px;
+    /* border-radius: 0px 0px 38px 5px; */
     overflow: hidden;
 }
 .News-card .content p{
