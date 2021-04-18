@@ -175,6 +175,9 @@ nav a{
     .News-card .img-section{
         height: 200px;  
     }
+    .News-card .content p{
+        font-size: 10px;
+    }
 }
 
 
