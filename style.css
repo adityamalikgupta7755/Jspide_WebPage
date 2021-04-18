@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header section */
+header{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px 45px 0px 0px;
+    background-image: radial-gradient(circle, #4827a6, #4736b6, #4444c6, #3f52d6, #3860e6, #365de0, #355ada, #3357d4, #3443b7, #31309b, #2c1c80, #240766);
+    box-shadow: 0 0 10px blueviolet;
+    
+}
+header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 13px;
+}
+/* navigation bar */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    border-radius: 0px 0px 46px 46px;
+    box-shadow: 0 0 10px blueviolet;
+    z-index: 1;
+    background-image: linear-gradient(to right top, #4827a6, #412199, #3b1b8d, #341581, #2d0f75, #2d0f75, #2d0f75, #2d0f75, #341581, #3b1b8d, #412199, #4827a6);
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px auto; 
+    color: white;
+}
+/* courses section */
+#card-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+#card-section .card{
+    border: 2px solid blue;
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px blueviolet;
+    margin: 20px 70px;
+}
+.card h1{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 17px 17px 0px 0px;
+    padding: 10px 0px;
+    color: white;
+    background-image: radial-gradient(circle, #4827a6, #4736b6, #4444c6, #3f52d6, #3860e6, #365de0, #355ada, #3357d4, #3443b7, #31309b, #2c1c80, #240766);
+    
+}
+.card .image{
+    height: 370px;
+    width: inherit;
+    transition: all 2s linear;
+}
+.card:hover .image{
+    height: 250px;
+    width: 225px; 
+    margin: 10px 38px;
+}
+.card .card-content{
+    border-top: 2px solid blue;
+    height: 100px;
+    transform: translateY(100px);
+    border-radius: 0px 0px 10px 10px;
+}
+.card:hover .card-content{
+    transform: translateY(0px); 
+}
+.card-content p{
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 5px;
+}
+.btn{
+    padding: 6px 36px;
+    margin: 0px 87px;
+    background-color: rgb(4, 184, 4);
+    box-shadow: 2px 0 10px rgb(4, 184, 4);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* news section */
+#News-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.News-card
+{
+    border: 2px solid blue;
+    margin: 50px 20px;
+    border-radius: 40px 8px 40px 8px;
+    box-shadow: 0 0 10px blueviolet;
+}
+.News-card h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 0px;
+    border-radius: 38px 5px 0px 0px;
+    background-image: linear-gradient(to right top, #4827a6, #412199, #3b1b8d, #341581, #2d0f75, #2d0f75, #2d0f75, #2d0f75, #341581, #3b1b8d, #412199, #4827a6);
+    color: white;
+}
+.News-card .img-section{
+    border: 1px solid black;
+    margin: 15px 20px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+.img-section{
+    overflow: hidden;
+}
+.img-section .pic{
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    
+    transition: all 3s linear;
+    
+}
+.News-card:hover .pic{
+    transform: perspective(400px) scale(1.2, 1.2);
+}
+.News-card .content{
+    border: 1px solid blue;
+    height: 150px;
+    border-radius: 0px 0px 38px 5px;
+    overflow: hidden;
+}
+.News-card .content p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+footer{
+    border-radius:  0px 0px 45px 45px;
+    background-image: radial-gradient(circle, #4827a6, #4736b6, #4444c6, #3f52d6, #3860e6, #365de0, #355ada, #3357d4, #3443b7, #31309b, #2c1c80, #240766);
+    box-shadow: 0 0 10px blueviolet;
+    text-align: center; 
+    padding: 10px 0px;
+    line-height: 30px;
+    color: white;
+}
+/* About us */
+#AboutUs-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    
+}
+ #AboutUs-Section .Aboutus{
+     position: relative;
+    border: 2px solid rgb(163, 6, 6);  
+    height: 400px;  
+    width: 100%;
+    margin: 40px 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px blueviolet;
+}
+ .Aboutus .img-section{
+    height: 99%;
+    width: 28%;
+    border-radius: 36px 0px 0px 36px;
+ }  
+ .img-section img{
+    height: 100%;
+    width: 100%;
+} 
+ .Aboutus  .right{
+    position: absolute;
+    left: 71%;
+    border-radius: 0px 36px 36px 0px;  
+} 
+.Aboutus .content{
+    position: absolute;
+    top: 0px;
+    height: 95%;
+    width: 72%;
+    left: 28%;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 0px 36px 36px 0px;
+} 
+ .Aboutus .left{
+   left: 0;
+    border-radius: 36px 0px 0px 36px; 
+} 
+ .content h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size:40px ;
+} 
+ .content p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size:20px ;
+    padding: 0px 20px;
+} 
+/* gallery section */
+#gallery-Section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+#gallery-Section .cards{
+    width: 300px;
+    height: 400px;
+    margin: 20px 14px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px blueviolet;
+}
+#gallery-Section .cards img{
+    width: 250px;
+    height: 300px;
+    margin: 23px 23px 0px 23px;
+    border-radius: 30px 30px 10px 10px;
+}
+#gallery-Section figcaption{
+    font-size: 20px;
+    margin: 23px 112px;
+}
+/* contact us */
+#contact{
+    margin: 50px auto;
+    width: 600px;
+    box-shadow: 0 0 10px blueviolet;
+    border-radius: 30px;
+}
+#contact h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+#contact label{
+    font-size: 20px;
+    margin: 0px 30px;
+}
+#contact input, textarea{
+    outline: none;
+    border: 1px solid blue;
+    height: 30px;
+    width: 300px;
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+#contact textarea{
+    height: 90px;
+}
+#contact .btn{
+    width: 250px;
+    margin-left: 180px;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+}
+@media (max-width:700px){
+    .Aboutus .img-section{
+        width: 40%;
+    }
+    .Aboutus  .right{
+        left: 60%;
+    }
+    .Aboutus .content{
+        width: 60%;
+        left: 40%;
+    }
+    .Aboutus .left{
+        left: 0%;}
+    nav a{
+        margin: 0px 25px;
+    }
+    #contact{   
+        width: 400px;
+    }
+    #contact label{
+        margin: 0px 10px;
+    }
+    #contact input, textarea{  
+        width: 200px;
+    }
+    #contact .btn{
+        width: 200px;
+        margin-left: 100px;
+        
+    }
+}
