@@ -179,7 +179,7 @@ footer{
     
 }
  #AboutUs-Section .Aboutus{
-     position: relative;
+    position: relative;
     border: 2px solid rgb(163, 6, 6);  
     height: 400px;  
     width: 100%;
@@ -308,7 +308,9 @@ footer{
         font-size: 15px;
         padding-top: 5px;
     }
-
+    #AboutUs-Section .Aboutus{
+        height: 300px;
+    }
     .Aboutus .img-section{
         width: 40%;
     }
